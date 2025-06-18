@@ -1,0 +1,14 @@
+secure-payments-api/
+├── api/
+│   ├── app.py / main.js         # Código da API
+│   └── routes/payment.js        # Rotas seguras
+├── requirements.txt / package.json
+├── Dockerfile                   # Se usar container
+├── infra/                       # Azure CLI ou Bicep para infraestrutura
+│   └── deploy.sh
+├── screenshots/                 # Prints do Azure
+│   ├── azure-appservice.png
+│   ├── api-auth.png
+│   └── keyvault-config.png
+└── README.md
+
